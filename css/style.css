@@ -1,0 +1,122 @@
+.container{
+    width: 1000px;
+    min-height: 100vh;
+    margin: 0 auto;
+}
+
+.topbar {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items:center;
+    justify-content:space-around;
+}
+
+.menu ul li {
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+}
+
+.menu ul li a:hover,
+a.active {
+    color: greenyellow !important;
+}
+
+.green-line{
+    width: 1000px;
+    height: 3px;
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    background-color: greenyellow;
+}
+
+.banner-box{
+    width: 500px;
+    height: 250px;
+    padding: 30px;
+    background-color:white;
+}
+
+.button{
+    width: auto;
+    height: auto;
+    float: left;
+    border-radius: 5px;
+    margin-right: 7px;
+    padding: 7px;
+}
+
+.button1{
+    background-color: greenyellow;
+    color: aliceblue;
+}
+
+.button2{
+    background-color: aliceblue;
+    color: #000;
+}
+
+.box{
+    padding: 0px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.img{
+    width: 50%;
+    height: auto;
+}
+
+.text{
+    width: 50%;
+    height: auto;
+    text-align: center;
+    padding: 30px 0px 0px 0px;
+}
+
+.img-boxes{
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img-box{
+    width: 33.33%;
+    padding: 0px;
+    float: left;
+}
+
+.footer{
+    width: auto;
+    height: 300px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-content: center;
+    background-color: greenyellow;
+}
+
+.footer h1{
+    padding: 50px 0px 0px 0px;
+    color: white;
+
+}
+
+.footer p{
+    color: white;
+}
+
+.button3{
+    margin: auto;
+    background-color: aliceblue;
+    color: #000;
+}
